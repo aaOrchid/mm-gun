@@ -811,6 +811,10 @@ a .amount{
     height: 360px;
 }
 
+#home .productBorder {
+    height: auto;
+}
+
 @media (max-width: 1150px){
 .productBorder .productMetas {
     top: 33%;
@@ -840,4 +844,8 @@ a .amount{
 /* -------------------- Remove Before Go Live ---------------*/
 #slider{
     display:none !important;
+}
+
+.courses.travel-wrapper{
+    display: none !important;
 }
