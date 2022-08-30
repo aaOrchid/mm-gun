@@ -114,8 +114,10 @@ transition: all 0.25s linear 0s;
 /* button for sliders */
 
 .college-slide .slide-item .bsns-btn a{
-    background-color: #4A2301;
-    color: #000 !important;
+    background-color: #FA8000;
+    border: 1px solid #FA8000;
+    color: #fff !important;
+    text-shadow: 2px 2px 2px #01051e;
     height: auto;
     box-shadow:3px 3px 3px #01051e;
     -webkit-transition: all 0.4s ease-in-out 0s;
@@ -130,8 +132,8 @@ transition: all 0.25s linear 0s;
 
 .college-slide .slide-item .bsns-btn a:hover{
     background-color:transparent;
-    color:#4A2301 !important;
-    border: 1px solid #4A2301;
+    color:#fff !important;
+    border: 1px solid #fff;
     text-shadow:3px 3px 3px #01051e;
 }
 
@@ -159,10 +161,10 @@ transition: all 0.25s linear 0s;
     font-weight: normal;
     font-size:58px !important;
 }
-.college-slide .active .slide-item h2{
+/*.college-slide .active .slide-item h2{
 color:#4A2301 !important;
 }
-
+*/
 h1, h2, h3, h4, h5{
     font-family: 'PT Serif';
     font-weight:700 !important;
@@ -842,6 +844,7 @@ a .amount{
 
 
 /* -------------------- Remove Before Go Live ---------------*/
+/*
 #slider{
     display:none !important;
 }
@@ -849,3 +852,5 @@ a .amount{
 .courses.travel-wrapper{
     display: none !important;
 }
+
+*/
